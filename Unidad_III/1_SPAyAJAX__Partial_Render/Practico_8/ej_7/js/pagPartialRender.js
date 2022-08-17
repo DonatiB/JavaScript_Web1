@@ -5,6 +5,8 @@ con las siguientes características:
 -Tres secciones que se carguen mediante partial render dentro del contenedor principal.
 Por defecto debe cargarse el contenido que se quiere ver en un inicio.*/
 
+//Ejercise doesn't finish
+
 document.addEventListener("DOMContentLoaded", pag);
 
 function pag(){
