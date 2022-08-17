@@ -1,5 +1,5 @@
-###In this project I solve exercises using javascript (in conjunction with HTML and CSS).
+###En este proyecto resuelvo ejercicios usando javascript (en conjunto con html y css).
 
--Unit 1: Basic sentences. SUN. Functions. Events.
--Unit 2: Arrays and JSON.
--Unit 3: Asynchronism. API. Partial Render. REST service.
+- Unidad 1: Senentencias basicas. DOM. Funciones. Eventos.
+- Unidad 2: Arreglos y JSON.
+- Unidad 3: Asincronismo. Api. Partial Render y Servicio REST.
