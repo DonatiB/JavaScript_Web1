@@ -1,0 +1,13 @@
+.div{
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    border: solid 4px black;
+}
+
+.div-click{
+    width: 40px;
+    height: 40px;
+    background-color: cadetblue;
+}
+

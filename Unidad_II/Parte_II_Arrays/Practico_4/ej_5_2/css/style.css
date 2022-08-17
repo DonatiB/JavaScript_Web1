@@ -1,0 +1,11 @@
+div{
+    margin: 1rem 0 1rem 0;
+}
+
+.div-2, .div-4{
+    display: none;
+}
+
+.divs{
+    display: flex;
+}

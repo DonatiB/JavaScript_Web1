@@ -1,0 +1,43 @@
+1_ ¿Qué son las aplicaciones web SPA? ¿Qué ventajas tienen?
+
+Es un tipo de aplicacion web donde nunca se recarga completamente el navegadro si no 
+los recursos se cargan parcial y dinamicamente cuando lo requiera la pagina. 
+Por ejemplo: cuando entramos a gmail y creamos un mail, no aparece toda una nueva
+pagina para escribir el mail, sino un parte o  cuando publicamos un post en 
+facebook se publica pero no se refresca toda la pagina. 
+
+Ventajas: Mejor la experiencai del usuario - Permite cambios dinámicos del lado del cliente - 
+mayor velocidad, cargamos algo una vez y cuando necesitamos algo se carga solo 
+ese pedacito, por lo tanto no hay que recargar toda la página, entonces hay
+menos volumen de información para transmitir - el user no pierde tiempo - 
+guarda datos en el server - se notan errores de comunicaion - 
+se puede seguir interactuando con la pagina debido al asincronismo 
+
+2_ ¿Que diferencia existe entre sincrónico y asincrónico? Explique con una línea de tiempo. 
+
+Algo sincronico es: yo pido algo y me quedo esperando hasta que lo reciba
+Algo asincronico es: yo pido algo, sigo haciendo otra cosas y despues se te avisa que lo que
+pediste ya esta. 
+
+Explicacion con una linea de tiempo: Ponemos la ropa a lavar, y en un lugar de quedarnos esperando
+a que la ropa termine de lavarse nos ponemos a hacer otras cosas como ordenar la pieza, hacer las compras, etc 
+y cuando el lavarropa termine de lavar la ropa se nos avisara con un sonido propio del lavarropa.
+
+3_ ¿Qué es AJAX? ¿Como se utiliza en JS?. ¿Qué es Partial-Render?
+
+Ajax es una tecnica de carga asincronica de contenido dinamico y datos del server, 
+permitiendo cambios dinamicos del lado del cliente y mejorando la experiencia de usuario. 
+Esta tecnica de frontend es la base de las aplicaciones web modernas. Y combina un set de 
+tecnologias conocidas para hacer mejorar la experiencia de usuario en las paginas web(
+mas amigables y rapidas).
+
+Tenemos de un lado la interfaaz de usuario (lo primero que se carga que es la pagina misma)
+, entonces una vez que genramos acciones en la pagina, esas acciones en lugar de ir al server, llaman al motos de ajax
+, y este es el que envia el request al web server, quedandose esperando, en lugar del usuario
+, esperabndo que devuevla lo que queire el usuario y cuando vuelve modifica el dom asi la activdad del usuario no se detienen 
+en ningun momento, y este puede hacer diferentes actividades si ninguna pausa ni necesidad
+de esperar. Es decir, el mismo JS que usamos para programar el dom, lo vamos a usar para hacer llamadas al servidor y despues volver y modificar
+el dom.
+
+Ajax tiene 2 estilos y uno de ellos es Partial Render, el cual carga un fragmento html y lo inserta en 
+nuestro html. 

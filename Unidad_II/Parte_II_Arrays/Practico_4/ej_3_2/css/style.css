@@ -1,0 +1,9 @@
+*{
+    list-style: none;
+}
+
+.h1{
+    color: aquamarine;
+    font-size: 300%;
+    font-weight: bolder;
+}

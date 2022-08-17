@@ -1,0 +1,25 @@
+1. ¿Qué es JSON y cómo es su estructura? ¿Para que se utiliza en JS?
+2. ¿Cómo se obtiene un único elemento del DOM? ¿Cómo se obtienen múltiples elementos del DOM? 
+
+1. JSON: JavaScript Object Notation
+Es una forma de organizar las variables y funciones. Ya que los objetos encapsulan datos y comportamiento.
+En JavaScript, se pueden describir a través del formato JSON. Es una forma de escribir objetos en JS (ya que los 
+objetos se caracterizan por ser organizados y faciles de entender cuando necesitamos guardar datos complejos). 
+
+Estructura:
+{
+    "nombre": "javier",
+    "materia": "web"
+}
+
+2.Se pueden obtener elementos del DOM consultando por un ID, nombre, clase o un selector.
+Podemos obtener como resultado de uno o múltiples elementos del DOM .
+
+Retorna un nodo
+let elem = document.getElementById("identificador");
+let singleElem = document.querySelector(".myclass");
+
+Retorna uno o más
+let manyElements = document.getElementsByClassName("myclass");
+let manyElems = document.querySelectorAll(".myclass");
+

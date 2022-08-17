@@ -1,0 +1,38 @@
+.container-form, .container-tarjeta{
+    width: 50%;
+    height: 25%;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, button{
+    width: 50%;
+    height: 2rem;
+    margin: auto;
+}
+button{
+    height: 1.5rem;
+    width: 25%;
+    margin-top: 10px;
+}
+label{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+/*Tarjeta*/
+.container-tarjeta{
+    margin-top: 2rem;
+     
+}
+.tarjeta{
+    background-color: cadetblue;
+    padding: 2rem;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}

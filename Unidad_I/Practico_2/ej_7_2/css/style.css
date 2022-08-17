@@ -1,0 +1,9 @@
+.div{
+    background: black;
+    width: 50vw;
+    height: 50vh;
+}
+.div-modificado{
+    background-color: rgb(82, 1, 25);
+    border: 3px solid red;
+}

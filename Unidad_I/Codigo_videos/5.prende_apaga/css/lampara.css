@@ -1,0 +1,10 @@
+.prendido{
+    background-color: lightyellow;
+}
+.apagado{
+    background-color: black;
+}
+#img-lampara{
+    width: 100px;
+    height: 100px;
+}

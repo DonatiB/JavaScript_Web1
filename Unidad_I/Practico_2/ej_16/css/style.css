@@ -1,0 +1,16 @@
+
+.contenedor{
+    display: flex;
+    
+}
+.contenedor div{
+    margin: auto;
+}
+.img-animal{
+    width: 400px;
+    height: 500px;
+}
+.img-none{
+    display: none;
+}
+

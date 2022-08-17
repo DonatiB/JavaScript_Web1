@@ -1,0 +1,6 @@
+.captcha-valido{
+    color: green;
+}
+.captcha-invalido{
+    color: red;
+}

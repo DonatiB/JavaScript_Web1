@@ -1,0 +1,11 @@
+h1{
+    size: 50px;
+}
+.contenedor{
+    width: 30vw;
+    height: 50vh;
+    border: solid 6px black;
+}
+.cont{
+    display: flex;
+}

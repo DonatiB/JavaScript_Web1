@@ -1,0 +1,35 @@
+
+1. ¿Cómo se integra JS a un proyecto Web? ¿Que función tiene?
+	-Creamos una carpeta aparte separada con el nombre "js" y le incluimos los 
+	archivos .js que necesitemos. Se incluye en los archivos .html al final del body (una linea antes del cierra body)
+	con la etiquete <script src="js/ssrchivo.js"></script>
+	-JS tiene la funcion de agregarle comportamiento a la pagina, dinamismo. Y se puede hacer 
+	muchas cosas como validar formularios, reaccionar a lo que hace el usuario (programacion dirigida por eventos), 
+	parte de paginas que se muestran/ocultan, etc.
+2. ¿Qué es el DOM? ¿Para qué nos sirve en JS?
+	-En imples palabras es un arbol de objetos (suele representarse median un diagrama de arbol). Significa Document Object Model que es una API que re
+	representa todo el documento html. 
+	-Nos permite manipular el documento a traves de js, es lo que conecta las paginas web(html) con js.
+3. ¿Qué es un evento en JS?
+	-Es algo que pasa, algo que ocurre originao por el usuario u otra parte del programa. Y 
+	el programa puede reaccionar a esos eventos (ejecutar cierto codigo cuando el evento pasa). En la programacion basada/dirigida en
+	eventos, los scripts y programas esperan sin realizar ninguna tarea hasta que se produzca un evento,
+
+13. ¿Qué ventajas tiene desacoplar o quitar todo el código JS del código HTML?
+
+Asignar handlers en HTML es mala práctica
+porque mezcla HTML y JavaScript.
+Es lo mismo, pero en lugar de escribir Javascript en el HTML, desde JS pedimos el nodo del DOM y le agregamos el handler del evento.
+El código Javascript queda en el JS!.
+La única conexión debieran ser las clases
+Las clases son el contrato entre los tres lenguajes
+En lo único que se tienen que poner de acuerdo es en qué significa cada clase
+HTML le va a poner las clases a lo que corresponda
+CSS va a hacer que se vea como dice el acuerdo
+JS va a hacer que se comporte como dice el acuerdo
+El nombre de la clase debe ser representativo de este contrato
+
+En grandes programas la mezcla de codigo puede traer problemas a largo plazo. Por eso es mejor
+que el codigo se mantenga el el archivo correspondiente con los selectores como conexion entre todos.
+
+

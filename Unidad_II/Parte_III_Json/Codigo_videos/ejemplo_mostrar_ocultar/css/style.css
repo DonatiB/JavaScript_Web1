@@ -1,0 +1,8 @@
+div {
+    visibility: hidden;
+}
+.ver {
+    visibility: visible;
+    color: aliceblue;
+    background-color: blue;
+}

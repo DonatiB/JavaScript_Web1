@@ -1,0 +1,13 @@
+div{
+    width: 300px;
+    height: 300px;
+}
+.fondo{
+    background-color: rgb(4, 77, 80);
+}
+.color{
+    background-color: cadetblue;
+    border: solid 3px red;
+}
+
+
